@@ -49,6 +49,8 @@
             while (!gameOver && !gameWin)
 			{
 
+				Console.WriteLine("\n----------\n");
+
                 remainingCells = playerBoard.Length - cellsDiscovered;
 
                 Console.WriteLine("\nRemaining cells: " + remainingCells + "\n");
